@@ -161,22 +161,26 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  width: 90%;
-  height: 85px;
+  width: 45%;
+  height: 95px;
+  margin: 0 auto;
 }
 .nav-container {
   height: 80%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 a {
   color: black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 .navi {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 80px;
-  margin-bottom: 60px;
+  justify-content: space-around;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .nav-logo {
   font-size: 30px;
@@ -235,6 +239,21 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 85px;
+  align-items: center;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: gray;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
